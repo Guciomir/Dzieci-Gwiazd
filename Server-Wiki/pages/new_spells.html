@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nowe spelle</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="icon" type="image/png" href="../images/logo.png">
+</head>
+<body>
+    <div class="wrapper">
+        <header class="wiki-header">
+            <a class="wiki-brand" href="../index.html" aria-label="Dzieci Gwiazd Wiki — strona główna">
+                <img src="../images/logo.png" alt="" width="50" height="50">
+            </a>
+            <h1>Nowe spelle</h1>
+            <button type="button" class="wiki-icon-button" id="searchBtn" aria-label="Wyszukiwanie" aria-controls="searchBar" aria-expanded="false">
+                <img src="../images/wiki-search.svg" alt="" width="24" height="24">
+            </button>
+            <button type="button" class="wiki-icon-button" id="menuBtn" aria-label="Menu" aria-controls="wiki-menu" aria-expanded="false">
+                <img src="../images/wiki-menu.svg" alt="" width="24" height="24">
+            </button>
+        </header>
+        <form class="wiki-search" id="searchBar" action="search.html" method="get" role="search" hidden>
+            <input type="search" id="searchInput" name="q" placeholder="Szukaj w wiki…" aria-label="Szukaj w wiki" required>
+            <button type="submit">Szukaj</button>
+        </form>
+        <nav class="wiki-menu" id="wiki-menu" aria-label="Nawigacja główna" inert>
+                <a href="../index.html">Strona główna</a>
+                <a href="new_spells.html" aria-current="page">Nowe spelle</a>
+                <a href="changed_spells.html">Zmienione spelle</a>
+                <a href="changed_feats.html">Featy</a>
+                <a href="races.html">Rasy</a>
+                <a href="classes.html">Klasy</a>
+        </nav>
+        <main class="spells-page">
+<div class="spell-box">
+
+    <div class="tabs">
+        <button class="tab active" data-level="0">Cantrip</button>
+        <button class="tab" data-level="1">1st Level</button>
+        <button class="tab" data-level="2">2nd Level</button>
+        <button class="tab" data-level="3">3rd Level</button>
+        <button class="tab" data-level="4">4th Level</button>
+        <button class="tab" data-level="5">5th Level</button>
+        <button class="tab" data-level="6">6th Level</button>
+        <button class="tab" data-level="7">7th Level</button>
+        <button class="tab" data-level="8">8th Level</button>
+        <button class="tab" data-level="9">9th Level</button>
+    </div>
+
+    <div class="spell-table-panel">
+        <table class="spell-table">
+            <thead>
+                <tr>
+                    <th>Spell Name</th>
+                    <th>School</th>
+                    <th>Casting Time</th>
+                    <th>Range</th>
+                    <th>Duration</th>
+                    <th>Components</th>
+                </tr>
+            </thead>
+            <tbody data-spell-category="new"></tbody>
+        </table>
+    </div>
+
+</div>
+        </main>
+    </div>
+    <footer>
+        <p>© 2077 Dzieci Gwiazd</p>
+    </footer>
+
+    <script src="../js/script.js"></script>
+    <script src="../js/changed-spell-data.js"></script>
+    <script src="../js/changed-spells.js"></script>
+</body>
+</html>
