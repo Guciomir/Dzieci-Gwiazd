@@ -13,8 +13,10 @@ if (spellRows) {
     const levelTabs = document.querySelectorAll(".tab[data-level]");
     const classHeading = document.getElementById("spell-list-class");
     const requestedClass = new URLSearchParams(location.search).get("class");
-    const spellClass = classHeading && changedSpellData.flatMap(spell => spell.classes)
-        .find(name => name.toLowerCase() === requestedClass?.toLowerCase());
+    const spellClass = classHeading && [
+        ...classData.map(entry => entry.name),
+        ...changedSpellData.flatMap(spell => spell.classes),
+    ].find(name => name.toLowerCase() === requestedClass?.toLowerCase());
 
     if (classHeading && spellClass) {
         classHeading.textContent = spellClass + " Spell List";

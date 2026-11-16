@@ -45,6 +45,9 @@ if (classDetails) {
     } else {
         document.title = entry.name + " | Server-Wiki";
         appendClassElement(classDetails, "h2", entry.name);
+        const spellList = appendClassElement(classDetails, "p");
+        appendClassElement(spellList, "a", "Spell List").href =
+            "spell_list.html?class=" + encodeURIComponent(entry.name);
         appendClassElement(classDetails, "h3", "Podklasy");
         for (const subclass of entry.subclasses) {
             const panel = appendClassElement(classDetails, "details");
