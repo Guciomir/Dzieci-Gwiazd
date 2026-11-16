@@ -510,34 +510,8 @@ const classData = [
     {
         "id": "blood-hunter",
         "name": "Blood Hunter",
-        "spellListClass": "Warlock",
-        "description": "A martial monster hunter designed by Matthew Mercer. Blood Hunters use hemocraft to empower weapons with crimson rites and hinder enemies with blood curses. They choose an order at 3rd level.",
-        "subclasses": [
-            {
-                "name": "Order of the Ghostslayer",
-                "lines": [
-                    "An order dedicated to hunting undead. Its radiant crimson rite and techniques for dealing with incorporeal foes define its approach."
-                ]
-            },
-            {
-                "name": "Order of the Lycan",
-                "lines": [
-                    "A hunter who channels lycanthropy through a hybrid transformation. The form improves close combat and resilience, but comes with a risk of losing control."
-                ]
-            },
-            {
-                "name": "Order of the Mutant",
-                "lines": [
-                    "An alchemical hunter who prepares mutagens. Each formula grants a temporary benefit and comes with a drawback."
-                ]
-            },
-            {
-                "name": "Order of the Profane Soul",
-                "lines": [
-                    "A pact-bound hunter who learns from the Warlock spell list starting at 3rd level. Pact Magic uses the hunter's chosen hemocraft ability. The subclass's own progression determines which spell levels are available."
-                ]
-            }
-        ]
+        "hasSpellList": false,
+        "subclasses": []
     },
     {
         "id": "cleric",
