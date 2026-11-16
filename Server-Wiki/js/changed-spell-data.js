@@ -209,8 +209,7 @@ const changedSpellData = [
             "Druid",
             "Paladin",
             "Ranger",
-            "Warlock",
-            "Tamer"
+            "Warlock"
         ],
         "description": [
             "A visible, willing target needs neither food nor water and ignores exhaustion and poisoning. It can't be incapacitated, stunned, paralyzed, or rendered unconscious while the spell lasts. Whenever damage would drop it to 0 HP, it makes a death save instead. Three failed saves kill it.",
@@ -273,8 +272,7 @@ const changedSpellData = [
             "Druid",
             "Sorcerer",
             "Warlock",
-            "Wizard",
-            "Tamer"
+            "Wizard"
         ],
         "description": [
             "Make a melee spell attack when you cast and again as an action on later turns. A hit deals 3d10 poison damage and poisons the target through the end of your next turn.",
@@ -382,8 +380,7 @@ const changedSpellData = [
             "Bard",
             "Druid",
             "Sorcerer",
-            "Warlock",
-            "Tamer"
+            "Warlock"
         ],
         "description": [
             "Make one weapon attack against a target you can reach or that is in range. Add 1d4 of the weapon's damage type on a hit. The extra damage rises to 2d4, 3d4, and 4d4 when you reach character levels 5, 11, and 17 respectively."
@@ -465,8 +462,7 @@ const changedSpellData = [
             "Bard",
             "Druid",
             "Ranger",
-            "Wizard",
-            "Tamer"
+            "Wizard"
         ],
         "description": [
             "A touched creature's appearance and gear blend into the environment. The target can Hide as a bonus action even in light obscurement. If it stayed still on its previous turn, sight-based Wisdom (Perception) checks to spot it have disadvantage. Senses that do not rely on sight bypass that penalty.",
@@ -488,8 +484,7 @@ const changedSpellData = [
             "Druid",
             "Ranger",
             "Sorcerer",
-            "Wizard",
-            "Tamer"
+            "Wizard"
         ],
         "description": [
             "Give a willing creature a swim speed equal to its walk speed.",
@@ -511,8 +506,7 @@ const changedSpellData = [
             "Druid",
             "Sorcerer",
             "Warlock",
-            "Wizard",
-            "Tamer"
+            "Wizard"
         ],
         "description": [
             "A willing creature you touch gains magical natural weapon attacks and unarmed strikes. The first such hit on each of its turns deals 1d8 additional lightning damage. The creature has advantage on checks and saves against being grappled or restrained and disadvantage when attempting a grapple.",
@@ -577,8 +571,7 @@ const changedSpellData = [
             "Druid",
             "Paladin",
             "Ranger",
-            "Wizard",
-            "Tamer"
+            "Wizard"
         ],
         "description": [
             "Choose a visible point. Creatures in a 10-foot-radius sphere centered there make Charisma saves. A failed save binds the creature's essence to its form. If it dies under the effect, harvesting can begin for up to 24 hours after death. Starting the harvest ends the spell on that corpse. Creatures with robust or stronger essence (generally CR 7+) pass automatically.",
@@ -600,8 +593,7 @@ const changedSpellData = [
             "Bard",
             "Cleric",
             "Paladin",
-            "Sorcerer",
-            "Tamer"
+            "Sorcerer"
         ],
         "description": [
             "A visible, willing creature gains 15 feet of speed and +1 AC. On each turn it may Dash, Disengage, Hide, or Use an Object as a bonus action. When the spell ends, or if it ends a turn without spending movement equal to its walking speed, it becomes poisoned until the end of its next turn.",
@@ -737,8 +729,7 @@ const changedSpellData = [
             "Druid",
             "Sorcerer",
             "Warlock",
-            "Wizard",
-            "Tamer"
+            "Wizard"
         ],
         "description": [
             "Make a melee spell attack when casting or as an action on subsequent turns, dealing 6d6 fire damage on a hit. Until the spell ends, your walking speed is 15 feet higher and you gain 2d6 temporary HP at the start of each of your turns.",
