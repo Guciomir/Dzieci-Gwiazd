@@ -45,9 +45,13 @@ if (classDetails) {
     } else {
         document.title = entry.name + " | Server-Wiki";
         appendClassElement(classDetails, "h2", entry.name);
+        if (entry.description) {
+            appendClassElement(classDetails, "p", entry.description);
+        }
         const spellList = appendClassElement(classDetails, "p");
-        appendClassElement(spellList, "a", "Spell List").href =
-            "spell_list.html?class=" + encodeURIComponent(entry.name);
+        const spellListLabel = entry.spellListClass ? entry.spellListClass + " Spell List (Profane Soul)" : "Spell List";
+        appendClassElement(spellList, "a", spellListLabel).href =
+            "spell_list.html?class=" + encodeURIComponent(entry.spellListClass || entry.name);
         appendClassElement(classDetails, "h3", "Podklasy");
         for (const subclass of entry.subclasses) {
             const panel = appendClassElement(classDetails, "details");
