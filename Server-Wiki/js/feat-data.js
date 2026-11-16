@@ -208,9 +208,8 @@ const featData = [
         "name": "Aerial Expert",
         "category": "allowed",
         "source": "Humblewood Campaign Setting · s. 47",
-        "summary": true,
         "description": [
-            "Wymaga Glide. Skaczesz bez rozbiegu, możesz użyć Siły lub Zręczności i podwajasz dystans. Dash wydłuża szybowanie o szybkość ruchu. W locie swobodnie skręcasz i raz możesz zyskać do 10 stóp wysokości."
+            "Requires Glide. Calculate long and high jumps using Strength or Dexterity, without a running start, and double the resulting distance. You can Dash during a glide for up to one movement speed of extra travel, change direction at will, and climb up to 10 feet once before landing."
         ]
     },
     {
@@ -218,9 +217,8 @@ const featData = [
         "name": "Bandit Cunning",
         "category": "allowed",
         "source": "Humblewood Campaign Setting · s. 47",
-        "summary": true,
         "description": [
-            "Raz na długi odpoczynek dodajesz modyfikator Inteligencji do rzutu obronnego jako reakcję. W walce możesz akcją zbadać zaobserwowanego przeciwnika testem Investigation o ST 10 + jego CR, aby poznać jedną informację o jego możliwościach."
+            "Once per long rest, use your reaction when called on to save and add your Intelligence modifier to the roll. In battle, spend an action on Intelligence (Investigation), DC 10 + the CR of a creature you've watched fight. On success, choose one fact to learn: a damage resistance or immunity, a condition immunity, a damaging or protective ability, an attack/legendary action/reaction option, or a special sense."
         ]
     },
     {
@@ -228,9 +226,8 @@ const featData = [
         "name": "Cruel",
         "category": "allowed",
         "source": "Tal’Dorei Campaign Setting Reborn · s. 190",
-        "summary": true,
         "description": [
-            "Masz tyle k6 okrucieństwa, ile wynosi premia z biegłości. Raz na turę możesz wydać kość na dodatkowe obrażenia, tymczasowe PW po trafieniu krytycznym lub premię do testu Intimidation. Kości odnawiają się po długim odpoczynku."
+            "You get a pool of d6s equal to your proficiency bonus, replenished on a long rest. Spend at most one die per turn: add its result to damage you deal, gain that many temporary HP on a critical hit, or increase a Charisma (Intimidation) check by the roll."
         ]
     },
     {
@@ -238,9 +235,8 @@ const featData = [
         "name": "Expert Harvester",
         "category": "allowed",
         "source": "Heliana’s Guide to Monster Hunting · s. 225",
-        "summary": true,
         "description": [
-            "Podwajasz premię z biegłości w testach pozyskiwania składników z użyciem znanej umiejętności. Możesz też dodać premię z biegłości, gdy brakuje ci wymaganej biegłości. Sprawdź zasady pomocy przy pozyskiwaniu w podręczniku."
+            "Double your proficiency bonus on Harvesting checks with a skill you know. If you lack the relevant proficiency, still add the normal bonus. When assisting, contribute the full bonus regardless of proficiency. Doing both Assessment and Carving yourself carries no disadvantage from working alone."
         ]
     },
     {
@@ -248,9 +244,9 @@ const featData = [
         "name": "Field Medic",
         "category": "allowed",
         "source": "Humblewood Tales · s. 171",
-        "summary": true,
         "description": [
-            "Rozpoznajesz wzrokiem, czy istota straciła PW i czy ma ponad połowę maksimum. Atut ułatwia ocenę i udzielanie pomocy rannym."
+            "By sight you can tell if a creature is injured and whether it has more than half its HP. You have advantage on Medicine, Arcana, or Religion checks to diagnose curses, disease, possession, blindness, deafness, exhaustion, incapacitation, paralysis, or poisoning.",
+            "You learn Spare the Dying and may cast it as a bonus action. You can cast Cure Wounds with Wisdom and no slot a number of times equal to half your proficiency bonus per long rest."
         ]
     },
     {
@@ -258,9 +254,9 @@ const featData = [
         "name": "Flamewoken",
         "category": "allowed",
         "source": "Humblewood Tales · s. 172",
-        "summary": true,
         "description": [
-            "Zyskujesz zdolności związane z ogniem, w tym komunikację z istotami związanymi z żywiołem ognia."
+            "You speak, read, and write Ignan and learn Produce Flame using Charisma. As a bonus action, empower the next fire damage you deal before the end of your next turn: one affected creature takes 2d10 extra fire damage. Recharge on a short or long rest.",
+            "As a bonus action, address ordinary flames you can see within 30 feet in Ignan. If they fit in a 5-foot cube, you can put them out or spread them 5 feet in one direction where fuel is available."
         ]
     },
     {
@@ -268,9 +264,8 @@ const featData = [
         "name": "Flash Recall",
         "category": "allowed",
         "source": "Tal’Dorei Campaign Setting Reborn · s. 190",
-        "summary": true,
         "description": [
-            "Wymaga przygotowywania zaklęć. Akcją dodatkową przygotowujesz dostępne zaklęcie 1. poziomu lub wyższego w miejsce innego zaklęcia tego samego lub wyższego poziomu. Odnawia się po krótkim lub długim odpoczynku."
+            "Requires the ability to prepare spells. Spend a bonus action to prepare an eligible spell of 1st level or higher from your spellbook (wizard) or class list (other prepared casters). It must be of a level for which you have slots and replaces a prepared spell of equal or greater level. Recharge on a short or long rest."
         ]
     },
     {
@@ -278,9 +273,8 @@ const featData = [
         "name": "Perfect Landing",
         "category": "allowed",
         "source": "Humblewood Campaign Setting · s. 47",
-        "summary": true,
         "description": [
-            "Zręczność +1, maks. 20. Pierwsze 30 stóp upadku nie zadaje obrażeń. Pozostałe obrażenia liczysz k4 zamiast k6. Obrażenia od upadku nie przewracają cię."
+            "Increase Dexterity by 1, up to 20. Ignore the first 30 feet when calculating falling damage and roll d4s instead of d6s for the remainder. Falling damage does not knock you prone."
         ]
     },
     {
@@ -288,9 +282,9 @@ const featData = [
         "name": "Plantmender",
         "category": "allowed",
         "source": "Humblewood Tales · s. 172",
-        "summary": true,
         "description": [
-            "Wymaga Mądrości 13. Dotknięcie rośliny pozwala ocenić jej stan i niedawne zdarzenia w otoczeniu. Atut daje też magię do opieki nad roślinami."
+            "Requires Wisdom 13. Touch a plant as an action to see the last 24 hours of events affecting it and its immediate surroundings, and learn its current health and ailments. Uses per long rest equal twice your Wisdom modifier (minimum one).",
+            "Learn Mend Plants and Shillelagh. Once per long rest you can cast either Barkskin or Spike Growth. Wisdom governs these spells."
         ]
     },
     {
@@ -298,9 +292,8 @@ const featData = [
         "name": "Reapmaster",
         "category": "allowed",
         "source": "Heliana’s Guide to Monster Hunting · s. 225",
-        "summary": true,
         "description": [
-            "Wymaga Expert Harvester. Wybierasz biegłość w Arcana, Investigation, Medicine, Nature, Religion lub Survival. Przy pozyskiwaniu składników z użyciem znanej umiejętności masz przewagę."
+            "Requires Expert Harvester. Gain proficiency in one of Arcana, Investigation, Medicine, Nature, Religion, or Survival. Roll Harvesting checks with advantage whenever you are proficient in the skill they use."
         ]
     },
     {
@@ -308,9 +301,8 @@ const featData = [
         "name": "Remarkable Recovery",
         "category": "allowed",
         "source": "Tal’Dorei Campaign Setting Reborn · s. 190",
-        "summary": true,
         "description": [
-            "Kondycja +1, maks. 20. Po ustabilizowaniu odzyskujesz PW równe modyfikatorowi Kondycji, minimum 1. Leczenie z zaklęcia, mikstury lub cechy klasowej daje tyle samo dodatkowych PW."
+            "Increase Constitution by 1, up to 20. When stabilized while dying, regain HP equal to your Constitution modifier (minimum 1). Add the same amount to healing you receive from a spell, potion, or class feature. The feat's own stabilization healing doesn't trigger the bonus."
         ]
     },
     {
@@ -318,9 +310,8 @@ const featData = [
         "name": "Speech of the Ancient Beasts",
         "category": "allowed",
         "source": "Humblewood Campaign Setting · s. 47",
-        "summary": true,
         "description": [
-            "Charyzma +1, maks. 20. Duże i większe bestie są zwykle przyjazne i masz przewagę w testach Charyzmy wobec nich. Poznajesz języki Giant Eagle, Giant Elk i Giant Owl oraz możesz porozumiewać się z dużymi bestiami."
+            "Increase Charisma by 1, up to 20. Large and bigger beasts are friendly unless you've attacked them, and you have advantage on Charisma checks with them. You can speak and understand Giant Eagle, Giant Elk, and Giant Owl. Other beasts of that size can understand you, though those with Intelligence 4 or lower may grasp only simple ideas."
         ]
     },
     {
@@ -328,9 +319,8 @@ const featData = [
         "name": "Spelldriver",
         "category": "allowed",
         "source": "Tal’Dorei Campaign Setting Reborn · s. 190",
-        "summary": true,
         "description": [
-            "Wymaga 11. poziomu i zdolności rzucania zaklęć. Możesz rzucić czar 1. poziomu lub wyższego zarówno akcją dodatkową, jak i akcją w tej samej turze. Tylko jeden z nich może mieć poziom 3 lub wyższy."
+            "Requires character level 11 and spellcasting. Casting a leveled spell with your bonus action does not prevent you from using your action for another leveled spell. Of the spells you cast on that turn, at most one can be level 3 or above."
         ]
     },
     {
@@ -338,9 +328,9 @@ const featData = [
         "name": "Spray 'n' Pray",
         "category": "allowed",
         "source": "Heliana’s Guide to Monster Hunting · s. 223",
-        "summary": true,
         "description": [
-            "Wymaga biegłości w broni palnej magitech lub tommybow. Przeładowujesz akcją lub akcją dodatkową i nie masz utrudnienia w atakach dystansowych przez bliskość wroga. Atut pozwala też użyć lekkiej broni dystansowej w drugiej ręce."
+            "Requires proficiency with a magitech firearm or tommybow. You may reload these weapons as an action or bonus action. A hostile creature within 5 feet no longer imposes disadvantage on your ranged attacks.",
+            "After attacking with a one-handed weapon as part of the Attack action, you can use a bonus action to attack with a held one-handed firearm or tommybow. Alternatively, after taking the Attack action with a tommybow or magitech firearm, use your bonus action for one or two shots from that weapon. Two shots each take a −5 penalty. Apply your ability modifier to their damage only if it is negative."
         ]
     },
     {
@@ -348,9 +338,9 @@ const featData = [
         "name": "Thrown Arms Master",
         "category": "allowed",
         "source": "Tal’Dorei Campaign Setting Reborn · s. 191",
-        "summary": true,
         "description": [
-            "Siła lub Zręczność +1, maks. 20. Broń do walki wręcz bez cechy thrown zyskuje ją dla ciebie (20/60 stóp jednoręczna, 15/30 oburęczna). Broń już miotana zyskuje 20/40 stóp zasięgu. Lekka broń wraca do ręki po pudle."
+            "Increase Strength or Dexterity by 1, up to 20. Simple and martial melee weapons gain thrown ranges for you: 20/60 feet for one-handed weapons or 15/30 for two-handed weapons. Weapons already thrown extend normal range by 20 feet and long range by 40 feet.",
+            "A light thrown weapon that misses comes back at the end of your turn if its return isn't obstructed. You can catch and stow all qualifying weapons."
         ]
     },
     {
@@ -358,9 +348,8 @@ const featData = [
         "name": "Vital Sacrifice",
         "category": "allowed",
         "source": "Tal’Dorei Campaign Setting Reborn · s. 191",
-        "summary": true,
         "description": [
-            "Akcją dodatkową przyjmujesz 1k6 obrażeń nekrotycznych, aby uzyskać na godzinę jednorazowy efekt. Możesz dodać 1k6 do ataku, zadać dodatkowe 2k6 obrażeń nekrotycznych przy trafieniu lub utrudnić odpowiedni rzut obronny o wartość 1k6."
+            "Use a bonus action and suffer 1d6 necrotic damage that cannot be reduced to gain a blood boon for one hour. Spend the boon to add 1d6 to an attack roll, add 2d6 necrotic damage to a hit by an attack or spell, or subtract 1d4 from a Strength, Dexterity, or Constitution save you force another creature to make."
         ]
     },
     {
@@ -368,9 +357,8 @@ const featData = [
         "name": "Woodwise",
         "category": "allowed",
         "source": "Humblewood Campaign Setting · s. 47",
-        "summary": true,
         "description": [
-            "Wersja podręcznikowa. Wybierasz biegłość w Survival albo Nature, ignorujesz trudny teren i nie gubisz się w naturalnym otoczeniu bez ingerencji magii."
+            "Gain proficiency in Nature or Survival. Difficult terrain does not slow you, and only magic can make you lose your way in natural surroundings."
         ]
     }
 ];

@@ -157,7 +157,6 @@ const changedSpellData = [
         "name": "Ambush Prey",
         "category": "new",
         "source": "Humblewood Campaign Setting · s. 49",
-        "summary": true,
         "level": 2,
         "school": "Illusion",
         "castingTime": "1 action",
@@ -168,7 +167,8 @@ const changedSpellData = [
             "Ranger"
         ],
         "description": [
-            "Stajesz się niewidzialny i łatwiej pozostajesz w ukryciu. Przemieszczenie o co najmniej 5 stóp kończy efekt. Pierwszy atak na nieświadomy cel zadaje dodatkowe obrażenia i kończy czar."
+            "You turn invisible with advantage on Dexterity (Stealth) checks to stay hidden. Going 5 feet or more from where you cast the spell ends it. Your first attack against a creature unaware of you while invisible deals 1d6 extra damage and also ends the spell.",
+            "At Higher Levels. Add 1d6 to the extra damage per slot level above 2nd."
         ]
     },
     {
@@ -176,7 +176,6 @@ const changedSpellData = [
         "name": "Elevated Sight",
         "category": "new",
         "source": "Humblewood Campaign Setting · s. 49",
-        "summary": true,
         "level": 1,
         "school": "Divination",
         "castingTime": "1 action",
@@ -191,7 +190,7 @@ const changedSpellData = [
             "Wizard"
         ],
         "description": [
-            "Patrzysz przez niewidzialny punkt obserwacyjny do 120 stóp nad sobą. Przesuwa się wraz z tobą. Możesz zmieniać jego wysokość i przełączać się na własny wzrok."
+            "Look through an invisible sensor up to 120 feet overhead, with a full view in all directions. The sensor travels with you at its current height. Change its height as a bonus action, up to the same limit. While using it you are blinded at your own location, but you can switch between views at any time on your turn."
         ]
     },
     {
@@ -199,7 +198,6 @@ const changedSpellData = [
         "name": "Endure",
         "category": "new",
         "source": "Heliana’s Guide to Monster Hunting",
-        "summary": true,
         "level": 5,
         "school": "Necromancy",
         "castingTime": "1 action",
@@ -215,7 +213,9 @@ const changedSpellData = [
             "Tamer"
         ],
         "description": [
-            "Chętna istota tymczasowo nie potrzebuje jedzenia ani wody i ignoruje część skutków wyczerpania i obezwładnienia."
+            "A visible, willing target needs neither food nor water and ignores exhaustion and poisoning. It can't be incapacitated, stunned, paralyzed, or rendered unconscious while the spell lasts. Whenever damage would drop it to 0 HP, it makes a death save instead. Three failed saves kill it.",
+            "When the spell ends, the target gains one exhaustion level per failed death save. A survivor falls unconscious for as long as the spell affected it and only Wish can wake it early. If the target died from the saves and is resurrected, it remains unconscious for an equivalent period and gains three exhaustion levels on waking.",
+            "At Higher Levels. Slots of 6th, 7th, 8th, or 9th level can extend the duration to 10 minutes, 1 hour, 8 hours, or 1 day respectively."
         ]
     },
     {
@@ -223,7 +223,6 @@ const changedSpellData = [
         "name": "Freedom of the Waves",
         "category": "new",
         "source": "Tal’Dorei Campaign Setting Reborn · s. 176",
-        "summary": true,
         "level": 3,
         "school": "Conjuration",
         "castingTime": "1 action",
@@ -236,7 +235,7 @@ const changedSpellData = [
             "Sorcerer"
         ],
         "description": [
-            "Przyzywasz walec wody. Istoty, które nie zdadzą rzutu Siły, otrzymują 2k8 obrażeń obuchowych i upadają. Wybrane cele mogą zdać automatycznie, a ty możesz przemieścić się w obrębie obszaru."
+            "Center a 15-foot-radius, 10-foot-high cylinder of seawater on a point in range. A creature there that fails a Strength save takes 2d8 bludgeoning damage and falls prone. Choose up to your spellcasting ability modifier in creatures (minimum one) to pass automatically. If you are inside the cylinder when casting, you may teleport as part of the casting action to a visible open space within it."
         ]
     },
     {
@@ -244,7 +243,6 @@ const changedSpellData = [
         "name": "Freedom of the Winds",
         "category": "new",
         "source": "Tal’Dorei Campaign Setting Reborn · s. 176",
-        "summary": true,
         "level": 5,
         "school": "Abjuration",
         "castingTime": "1 action",
@@ -257,7 +255,7 @@ const changedSpellData = [
             "Ranger"
         ],
         "description": [
-            "Uzyskujesz lot 60 stóp i przewagę przeciw wybranym sposobom unieruchomienia. Reakcją możesz teleportować się o 60 stóp przed atakiem lub czarem, co kończy efekt."
+            "While the spell lasts, you fly at 60 feet and have advantage on checks to avoid a grapple and saves against restraint or paralysis. If targeted by an attack or spell, you can react by teleporting up to 60 feet to an unoccupied space you can see. If you leave the triggering effect's range it misses you. The spell ends when you reappear."
         ]
     },
     {
@@ -265,7 +263,6 @@ const changedSpellData = [
         "name": "Frogskin",
         "category": "new",
         "source": "Heliana’s Guide to Monster Hunting",
-        "summary": true,
         "level": 4,
         "school": "Biomancy",
         "castingTime": "1 action",
@@ -280,7 +277,9 @@ const changedSpellData = [
             "Tamer"
         ],
         "description": [
-            "Zyskujesz śliską skórę i powtarzalny atak czarem w zwarciu, który zadaje 3k10 obrażeń od trucizny i zatruwa. Chwytanie działa na ciebie inaczej, a chwytające cię istoty są narażone na truciznę."
+            "Make a melee spell attack when you cast and again as an action on later turns. A hit deals 3d10 poison damage and poisons the target through the end of your next turn.",
+            "Your slippery body gives advantage on checks and saves against grapples or restraint and disadvantage when you try to grapple. A creature grappled by you or grappling you saves with Constitution at the start of each of its turns, taking 3d10 poison damage on failure or half on success.",
+            "At Higher Levels. Each slot level above 4th adds 1d10 to both damage rolls."
         ]
     },
     {
@@ -288,7 +287,6 @@ const changedSpellData = [
         "name": "Globe of Twilight",
         "category": "new",
         "source": "Humblewood Campaign Setting · s. 50",
-        "summary": true,
         "level": 3,
         "school": "Conjuration",
         "castingTime": "1 action",
@@ -301,7 +299,8 @@ const changedSpellData = [
             "Warlock"
         ],
         "description": [
-            "Tworzysz wokół siebie strefę półmroku, w której zwykłe światło nie działa. Wybrane istoty łatwiej się ukrywają, a pozostałe mogą zostać oślepione."
+            "The sphere is lightly obscured. Ordinary light is ineffective, low-level magical light provides dim light only in a 5-foot space, and spells of 3rd level or higher can illuminate it normally.",
+            "Choose any number of creatures you see when casting. They gain advantage on Dexterity (Stealth) checks in the sphere and can attempt to hide there at any time. Creatures inside have disadvantage on sight-based Wisdom (Perception) checks to see outside. Unchosen creatures have disadvantage on Perception checks within the sphere and must pass a Wisdom save when first entering or starting a turn there or be blinded through the end of that turn."
         ]
     },
     {
@@ -309,7 +308,6 @@ const changedSpellData = [
         "name": "Shape Plants",
         "category": "new",
         "source": "Humblewood Campaign Setting · s. 51",
-        "summary": true,
         "level": 4,
         "school": "Transmutation",
         "castingTime": "1 action",
@@ -322,7 +320,9 @@ const changedSpellData = [
             "Druid"
         ],
         "description": [
-            "Zmieniasz kształt i wzrost rośliny mieszczącej się w sześcianie o boku 5 stóp. Cierniste rośliny mogą stać się trudnym terenem zadającym obrażenia."
+            "Reshape visible plant life within reach that fits in a 5-foot cube. You can vary the growth of its flowers, leaves, vines, fruit, branches, or thorns. With a thorn-bearing plant, you can make the reshaped space difficult terrain that deals 2d4 piercing damage per 5 feet traveled.",
+            "The plant reverts after an hour. If you can communicate with it, you can ask it to keep the shape permanently, subject to the plant's willingness and the GM's decision.",
+            "At Higher Levels. Increase the cube's side by 5 feet per slot level above 4th."
         ]
     },
     {
@@ -330,7 +330,6 @@ const changedSpellData = [
         "name": "Stellar Bodies",
         "category": "new",
         "source": "Humblewood Campaign Setting · s. 52",
-        "summary": true,
         "level": 4,
         "school": "Evocation",
         "castingTime": "1 action",
@@ -344,7 +343,9 @@ const changedSpellData = [
             "Wizard"
         ],
         "description": [
-            "Dwie krążące gwiazdy dają przyćmione światło i mogą zranić atakujących w zwarciu. Możesz też wystrzelić gwiazdę w cel, aby zadać obrażenia promieniste."
+            "Two stars revolve around you and cast dim light to 10 feet. A creature within 5 feet that hits you in melee must pass a Wisdom save or take 1d8 radiant damage per remaining star.",
+            "Once per round on your turn, spend an action and a star to make a ranged spell attack against a target within 120 feet. A hit deals 4d8 radiant damage and the target must make a Constitution save or be blinded until your next turn starts. The spell ends if you fall unconscious, spend every star, or reach its duration.",
+            "At Higher Levels. Add a star for each two slot levels above 4th, increasing the dim light radius by 5 feet per extra orbiting star."
         ]
     },
     {
@@ -352,7 +353,6 @@ const changedSpellData = [
         "name": "Veil of Dusk",
         "category": "new",
         "source": "Humblewood Campaign Setting · s. 52",
-        "summary": true,
         "level": 1,
         "school": "Abjuration",
         "castingTime": "1 bonus action",
@@ -364,7 +364,7 @@ const changedSpellData = [
             "Warlock"
         ],
         "description": [
-            "Cel zyskuje +1 do KP i przewagę w testach Stealth na czas działania czaru."
+            "Shadows cloak a creature in range. Until the spell ends, the creature gets +1 AC and advantage on Stealth checks."
         ]
     },
     {
@@ -372,7 +372,6 @@ const changedSpellData = [
         "name": "Ferocious Strike",
         "category": "new",
         "source": "Heliana’s Guide to Monster Hunting",
-        "summary": true,
         "level": 0,
         "school": "Biomancy",
         "castingTime": "1 action",
@@ -387,7 +386,7 @@ const changedSpellData = [
             "Tamer"
         ],
         "description": [
-            "Wykonujesz atak bronią. Trafienie zadaje dodatkowe 1k4 obrażeń tego samego rodzaju co broń. Premia rośnie na poziomach 5, 11 i 17."
+            "Make one weapon attack against a target you can reach or that is in range. Add 1d4 of the weapon's damage type on a hit. The extra damage rises to 2d4, 3d4, and 4d4 when you reach character levels 5, 11, and 17 respectively."
         ]
     },
     {
@@ -395,7 +394,6 @@ const changedSpellData = [
         "name": "Pins & Needles",
         "category": "new",
         "source": "Heliana’s Guide to Monster Hunting",
-        "summary": true,
         "level": 0,
         "school": "Biomancy",
         "castingTime": "1 action",
@@ -409,7 +407,7 @@ const changedSpellData = [
             "Wizard"
         ],
         "description": [
-            "Cel wykonuje rzut Kondycji. Porażka oznacza 1k8 obrażeń psychicznych, a porażka o co najmniej 5 utrudnia jego następny atak. Obrażenia rosną wraz z poziomem."
+            "A visible creature in range makes a Constitution save. Failure deals 1d8 psychic damage. On a failure by 5 or more, the target also has disadvantage on its next attack roll before the end of its next turn. Damage rises to 2d8, 3d8, and 4d8 at levels 5, 11, and 17."
         ]
     },
     {
@@ -417,7 +415,6 @@ const changedSpellData = [
         "name": "Spore Cloud",
         "category": "new",
         "source": "Heliana’s Guide to Monster Hunting",
-        "summary": true,
         "level": 0,
         "school": "Biomancy",
         "castingTime": "1 action",
@@ -430,7 +427,7 @@ const changedSpellData = [
             "Warlock"
         ],
         "description": [
-            "Istoty w promieniu 5 stóp poza tobą wykonują rzut Kondycji lub otrzymują obrażenia od trucizny. Porażka o co najmniej 5 dodatkowo zatruwa."
+            "All other creatures within 5 feet make Constitution saves or take 1d4 poison damage. A creature that fails by 5 or more is also poisoned until its next turn ends. Damage totals listed at character levels 5, 11, and 17 are 2d4, 3d4, and 4d4."
         ]
     },
     {
@@ -438,7 +435,6 @@ const changedSpellData = [
         "name": "Swarm",
         "category": "new",
         "source": "Heliana’s Guide to Monster Hunting",
-        "summary": true,
         "level": 0,
         "school": "Biomancy",
         "castingTime": "1 action",
@@ -451,7 +447,7 @@ const changedSpellData = [
             "Warlock"
         ],
         "description": [
-            "Cel wykonuje rzut Zręczności lub zostaje zatruty do końca swojej następnej tury. Od 5. poziomu nieudany rzut zadaje też obrażenia od trucizny."
+            "A creature in range must pass a Dexterity save or be poisoned until the end of its next turn. A failed save also deals poison damage from character level 5 onward: 1d10 at 5th level, 2d10 at 11th, and 3d10 at 17th."
         ]
     },
     {
@@ -459,7 +455,6 @@ const changedSpellData = [
         "name": "Chameleon Skin",
         "category": "new",
         "source": "Heliana’s Guide to Monster Hunting",
-        "summary": true,
         "level": 1,
         "school": "Biomancy",
         "castingTime": "1 action",
@@ -474,7 +469,8 @@ const changedSpellData = [
             "Tamer"
         ],
         "description": [
-            "Dotknięty cel dopasowuje barwę do otoczenia. Może się ukrywać akcją dodatkową nawet przy lekkim przesłonięciu."
+            "A touched creature's appearance and gear blend into the environment. The target can Hide as a bonus action even in light obscurement. If it stayed still on its previous turn, sight-based Wisdom (Perception) checks to spot it have disadvantage. Senses that do not rely on sight bypass that penalty.",
+            "At Higher Levels. Add one target per slot level above 1st."
         ]
     },
     {
@@ -482,7 +478,6 @@ const changedSpellData = [
         "name": "Flipperform",
         "category": "new",
         "source": "Heliana’s Guide to Monster Hunting",
-        "summary": true,
         "level": 1,
         "school": "Biomancy",
         "castingTime": "1 action (ritual)",
@@ -497,7 +492,8 @@ const changedSpellData = [
             "Tamer"
         ],
         "description": [
-            "Chętna istota zyskuje szybkość pływania równą szybkości chodzenia. Czar można rzucić jako rytuał."
+            "Give a willing creature a swim speed equal to its walk speed.",
+            "At Higher Levels. Each slot level above 1st adds one target and doubles the duration."
         ]
     },
     {
@@ -505,7 +501,6 @@ const changedSpellData = [
         "name": "Eelskin",
         "category": "new",
         "source": "Heliana’s Guide to Monster Hunting",
-        "summary": true,
         "level": 2,
         "school": "Biomancy",
         "castingTime": "1 bonus action",
@@ -520,7 +515,8 @@ const changedSpellData = [
             "Tamer"
         ],
         "description": [
-            "Dotknięty chętny cel zyskuje naelektryzowaną skórę. Jego ciosy bez broni i broń naturalna są magiczne i mogą zadawać obrażenia od błyskawic."
+            "A willing creature you touch gains magical natural weapon attacks and unarmed strikes. The first such hit on each of its turns deals 1d8 additional lightning damage. The creature has advantage on checks and saves against being grappled or restrained and disadvantage when attempting a grapple.",
+            "At Higher Levels. Add 1d8 for every two slot levels above 2nd."
         ]
     },
     {
@@ -528,7 +524,6 @@ const changedSpellData = [
         "name": "Endoleech",
         "category": "new",
         "source": "Heliana’s Guide to Monster Hunting",
-        "summary": true,
         "level": 2,
         "school": "Biomancy",
         "castingTime": "1 action",
@@ -542,7 +537,8 @@ const changedSpellData = [
             "Wizard"
         ],
         "description": [
-            "Przy trafieniu atakiem czarem w zwarciu cel otrzymuje 5k6 obrażeń od zimna i chwilowo traci reakcje. Czar oddziałuje też na twoje tempo metabolizmu."
+            "Make a melee spell attack. On a hit the creature takes 5d6 cold damage and cannot react until the end of its next turn. Until that same point, it loses 15 feet of speed and you gain 15 feet.",
+            "At Higher Levels. Add 1d6 per slot level above 2nd."
         ]
     },
     {
@@ -550,7 +546,6 @@ const changedSpellData = [
         "name": "Mortiferous Pulse",
         "category": "new",
         "source": "Heliana’s Guide to Monster Hunting",
-        "summary": true,
         "level": 2,
         "school": "Biomancy",
         "castingTime": "1 action",
@@ -562,7 +557,8 @@ const changedSpellData = [
             "Warlock"
         ],
         "description": [
-            "Istoty w linii o szerokości 5 stóp i długości 50 stóp wykonują rzut Zręczności. Porażka oznacza 3k8 obrażeń nekrotycznych, sukces połowę."
+            "Creatures in a line 50 feet long and 5 feet wide extending from you save with Dexterity. They take 3d8 necrotic damage on failure or half on success.",
+            "At Higher Levels. Add 1d8 per slot level above 2nd."
         ]
     },
     {
@@ -570,7 +566,6 @@ const changedSpellData = [
         "name": "Preserve",
         "category": "new",
         "source": "Heliana’s Guide to Monster Hunting",
-        "summary": true,
         "level": 2,
         "school": "Biomancy",
         "castingTime": "1 action",
@@ -586,7 +581,8 @@ const changedSpellData = [
             "Tamer"
         ],
         "description": [
-            "Istoty w promieniu 10 stóp wykonują rzut Charyzmy. Efekt pozwala zabezpieczyć magiczną esencję zwłok do pozyskania przez 24 godziny. Istoty o silnej esencji zdają automatycznie."
+            "Choose a visible point. Creatures in a 10-foot-radius sphere centered there make Charisma saves. A failed save binds the creature's essence to its form. If it dies under the effect, harvesting can begin for up to 24 hours after death. Starting the harvest ends the spell on that corpse. Creatures with robust or stronger essence (generally CR 7+) pass automatically.",
+            "At Higher Levels. The threshold for automatic success rises to potent essence (typically CR 12) with a 4th-level slot, mythic (CR 18) with a 6th-level slot, and deific (CR 25) with an 8th-level slot."
         ]
     },
     {
@@ -594,7 +590,6 @@ const changedSpellData = [
         "name": "Sugar Rush",
         "category": "new",
         "source": "Heliana’s Guide to Monster Hunting",
-        "summary": true,
         "level": 2,
         "school": "Biomancy",
         "castingTime": "1 action",
@@ -609,7 +604,8 @@ const changedSpellData = [
             "Tamer"
         ],
         "description": [
-            "Chętny cel zyskuje 15 stóp szybkości, +1 do KP i dodatkowe możliwości działania akcją dodatkową. Gdy efekt ustanie albo cel nie wykorzysta wymaganego ruchu, zostaje na krótko zatruty."
+            "A visible, willing creature gains 15 feet of speed and +1 AC. On each turn it may Dash, Disengage, Hide, or Use an Object as a bonus action. When the spell ends, or if it ends a turn without spending movement equal to its walking speed, it becomes poisoned until the end of its next turn.",
+            "At Higher Levels. Add one target per slot level above 2nd."
         ]
     },
     {
@@ -617,7 +613,6 @@ const changedSpellData = [
         "name": "Influenza",
         "category": "new",
         "source": "Heliana’s Guide to Monster Hunting",
-        "summary": true,
         "level": 3,
         "school": "Biomancy",
         "castingTime": "1 action",
@@ -630,7 +625,9 @@ const changedSpellData = [
             "Warlock"
         ],
         "description": [
-            "Istoty w stożku 30 stóp wykonują rzut Zręczności przeciw 3k6 obrażeń od trucizny i zatruciu. Zatrute cele mogą doświadczać napadów kaszlu i ponawiają rzut Kondycji."
+            "The casting is audible up to 300 feet away. Creatures in a 30-foot cone take 3d6 poison damage and are poisoned on a failed Dexterity save. Success halves the damage and avoids poisoning. A poisoned creature can end the effect with a Constitution save at the end of its turn.",
+            "At the start of each of its turns a poisoned creature rolls a d12. On 3 or less it is incapacitated until its next turn starts. Creatures within 5 feet at that moment must pass a Constitution save or suffer the spell's poisoning too.",
+            "At Higher Levels. Each slot level above 3rd adds 1d6 damage and raises the coughing threshold by 1."
         ]
     },
     {
@@ -638,7 +635,6 @@ const changedSpellData = [
         "name": "The Bends",
         "category": "new",
         "source": "Heliana’s Guide to Monster Hunting",
-        "summary": true,
         "level": 3,
         "school": "Biomancy",
         "castingTime": "1 action",
@@ -652,7 +648,8 @@ const changedSpellData = [
             "Wizard"
         ],
         "description": [
-            "Cel wykonuje rzut Kondycji przeciw 5k8 obrażeń od trucizny i zatruciu. Sukces zmniejsza obrażenia o połowę. Pod wodą kości obrażeń zmieniają się na k10."
+            "One visible target makes a Constitution save. Failure deals 5d8 poison damage and poisons it for a minute. Success deals half damage and avoids poisoning. Use d10s instead of d8s if the target is fully underwater. A poisoned target can repeat the save at the end of each turn.",
+            "At Higher Levels. Add one damage die per slot level above 3rd."
         ]
     },
     {
@@ -660,7 +657,6 @@ const changedSpellData = [
         "name": "Zippit!",
         "category": "new",
         "source": "Heliana’s Guide to Monster Hunting",
-        "summary": true,
         "level": 3,
         "school": "Biomancy",
         "castingTime": "1 reaction, which you take when a creature within range vocalises",
@@ -675,7 +671,9 @@ const changedSpellData = [
             "Wizard"
         ],
         "description": [
-            "Reakcją próbujesz uciszyć istotę, gdy wydaje głos. Jeśli nie zda rzutu Kondycji, jej usta się zrastają. Przerwany czar z komponentem werbalnym zużywa akcję, ale nie slot."
+            "React when a creature in range vocalizes. On a failed Constitution save its mouth seals and it cannot speak. If this interrupts a spell with a verbal component, the casting action is lost but the slot is kept.",
+            "At the end of each turn, the target may try a Strength save. Success tears its mouth open and deals 1d8 slashing damage. It can instead cut its mouth open as an action with a blade, taking the same damage and ending the silence.",
+            "At Higher Levels. Add 1d8 slashing damage per slot level above 3rd."
         ]
     },
     {
@@ -683,7 +681,6 @@ const changedSpellData = [
         "name": "Fungal Infection",
         "category": "new",
         "source": "Heliana’s Guide to Monster Hunting",
-        "summary": true,
         "level": 4,
         "school": "Biomancy",
         "castingTime": "1 action",
@@ -696,7 +693,10 @@ const changedSpellData = [
             "Wizard"
         ],
         "description": [
-            "Istoty w sferze 15 stóp wykonują rzut Kondycji. Po porażce dotyka je klątwa o skutkach zależnych od wybranego grzyba. Mogą ponawiać rzut na końcu tury."
+            "Choose one fungus. Creatures in a 15-foot-radius sphere at a point in range must pass a Constitution save or suffer that fungus's curse. They can repeat the save after the end-of-turn effects resolve.",
+            "Amanita Rotgut: 2d6 poison damage immediately and at the end of each later turn while poisoned by the spell. Necrotising Zygomycosis: 2d8 necrotic damage immediately and at the start of every turn. Psilocybin Quickitrippiae: roll a d4 at each turn's start; on a 1 the target cannot move or act that turn.",
+            "Paralysing Mucorales: at turn's end the target is stunned until its next turn starts, or paralyzed instead if its previous save failed by at least 5. Raging Henbane: the target is charmed and must use its reaction at turn's start to make a weapon attack against a random eligible target other than you. Veiled Lady: disadvantage on Dexterity saves and advantage on ranged attacks against it.",
+            "At Higher Levels. Per slot level above 4th, add 1d6 to the Amanita damage and 1d8 to the Zygomycosis damage. A slot of 6th level or higher allows two different fungi."
         ]
     },
     {
@@ -704,7 +704,6 @@ const changedSpellData = [
         "name": "Tentacle Lash",
         "category": "new",
         "source": "Heliana’s Guide to Monster Hunting",
-        "summary": true,
         "level": 4,
         "school": "Biomancy",
         "castingTime": "1 action",
@@ -718,7 +717,8 @@ const changedSpellData = [
             "Wizard"
         ],
         "description": [
-            "Twoje ramię staje się macką. Atak na zasięgu do 30 stóp zadaje 5k8 obrażeń obuchowych i może przewrócić, odsunąć lub rozbroić przeciwnika po nieudanym rzucie Siły."
+            "When you cast and as an action on later turns, make a melee spell attack against a creature within 30 feet. A hit deals 5d8 bludgeoning damage. If the creature is Huge or smaller, a failed Strength save lets you knock it prone, shove it 5 feet in a direction you choose, or take one object it is holding. The GM may allow the tentacle to serve as a rope or grappling hook.",
+            "At Higher Levels. Add 1d8 per slot level above 4th."
         ]
     },
     {
@@ -726,7 +726,6 @@ const changedSpellData = [
         "name": "Feverskin",
         "category": "new",
         "source": "Heliana’s Guide to Monster Hunting",
-        "summary": true,
         "level": 5,
         "school": "Biomancy",
         "castingTime": "1 action",
@@ -742,7 +741,8 @@ const changedSpellData = [
             "Tamer"
         ],
         "description": [
-            "Zyskujesz 15 stóp szybkości i na początku tur tymczasowe PW. Możesz ponawiać atak czarem w zwarciu zadający 6k6 obrażeń od ognia."
+            "Make a melee spell attack when casting or as an action on subsequent turns, dealing 6d6 fire damage on a hit. Until the spell ends, your walking speed is 15 feet higher and you gain 2d6 temporary HP at the start of each of your turns.",
+            "At Higher Levels. Add 1d6 fire damage per slot level above 5th."
         ]
     },
     {
@@ -750,7 +750,6 @@ const changedSpellData = [
         "name": "Lungburst",
         "category": "new",
         "source": "Heliana’s Guide to Monster Hunting",
-        "summary": true,
         "level": 6,
         "school": "Biomancy",
         "castingTime": "1 action",
@@ -763,7 +762,8 @@ const changedSpellData = [
             "Wizard"
         ],
         "description": [
-            "Cel wykonuje rzut Kondycji przeciw 7k6 obrażeń od dźwięku i 7k6 nekrotycznych oraz duszeniu. Sukces daje połowę obrażeń bez duszenia. Istoty, które nie oddychają, są odporne."
+            "A visible creature makes a Constitution save, with disadvantage if holding its breath. On failure it takes 7d6 thunder and 7d6 necrotic damage and starts suffocating. Success halves the damage and avoids suffocation. A suffocating target may repeat the save at the end of each turn. Greater Restoration, Heal, or Wish can also restore breathing. Creatures that don't need to breathe are unaffected.",
+            "At Higher Levels. Each slot level above 6th adds 1d6 to each damage type."
         ]
     }
 ];
