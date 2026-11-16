@@ -202,5 +202,175 @@ const featData = [
         "description": [
             "Increase your Intelligence, Wisdom, or Charisma by 1, to a maximum of 20. You learn the mage hand cantrip. You can cast it without verbal or somatic components, and you can make the spectral hand invisible. If you already know this spell, its range increases by 30 feet when you cast it. Its spellcasting ability is the ability increased by this feat. As a bonus action, you can try to telekinetically shove one creature you can see within 30 feet of you. When you do so, the target must succeed on a Strength saving throw (DC 8 + your proficiency bonus + the ability modifier of the score increased by this feat) or be moved 5 feet toward you or away from you. A creature can willingly fail this save. You can use this bonus action a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a short or long rest."
         ]
+    },
+    {
+        "id": "aerial-expert",
+        "name": "Aerial Expert",
+        "category": "allowed",
+        "source": "Humblewood Campaign Setting · s. 47",
+        "summary": true,
+        "description": [
+            "Wymaga Glide. Skaczesz bez rozbiegu, możesz użyć Siły lub Zręczności i podwajasz dystans. Dash wydłuża szybowanie o szybkość ruchu. W locie swobodnie skręcasz i raz możesz zyskać do 10 stóp wysokości."
+        ]
+    },
+    {
+        "id": "bandit-cunning",
+        "name": "Bandit Cunning",
+        "category": "allowed",
+        "source": "Humblewood Campaign Setting · s. 47",
+        "summary": true,
+        "description": [
+            "Raz na długi odpoczynek dodajesz modyfikator Inteligencji do rzutu obronnego jako reakcję. W walce możesz akcją zbadać zaobserwowanego przeciwnika testem Investigation o ST 10 + jego CR, aby poznać jedną informację o jego możliwościach."
+        ]
+    },
+    {
+        "id": "cruel",
+        "name": "Cruel",
+        "category": "allowed",
+        "source": "Tal’Dorei Campaign Setting Reborn · s. 190",
+        "summary": true,
+        "description": [
+            "Masz tyle k6 okrucieństwa, ile wynosi premia z biegłości. Raz na turę możesz wydać kość na dodatkowe obrażenia, tymczasowe PW po trafieniu krytycznym lub premię do testu Intimidation. Kości odnawiają się po długim odpoczynku."
+        ]
+    },
+    {
+        "id": "expert-harvester",
+        "name": "Expert Harvester",
+        "category": "allowed",
+        "source": "Heliana’s Guide to Monster Hunting · s. 225",
+        "summary": true,
+        "description": [
+            "Podwajasz premię z biegłości w testach pozyskiwania składników z użyciem znanej umiejętności. Możesz też dodać premię z biegłości, gdy brakuje ci wymaganej biegłości. Sprawdź zasady pomocy przy pozyskiwaniu w podręczniku."
+        ]
+    },
+    {
+        "id": "field-medic",
+        "name": "Field Medic",
+        "category": "allowed",
+        "source": "Humblewood Tales · s. 171",
+        "summary": true,
+        "description": [
+            "Rozpoznajesz wzrokiem, czy istota straciła PW i czy ma ponad połowę maksimum. Atut ułatwia ocenę i udzielanie pomocy rannym."
+        ]
+    },
+    {
+        "id": "flamewoken",
+        "name": "Flamewoken",
+        "category": "allowed",
+        "source": "Humblewood Tales · s. 172",
+        "summary": true,
+        "description": [
+            "Zyskujesz zdolności związane z ogniem, w tym komunikację z istotami związanymi z żywiołem ognia."
+        ]
+    },
+    {
+        "id": "flash-recall",
+        "name": "Flash Recall",
+        "category": "allowed",
+        "source": "Tal’Dorei Campaign Setting Reborn · s. 190",
+        "summary": true,
+        "description": [
+            "Wymaga przygotowywania zaklęć. Akcją dodatkową przygotowujesz dostępne zaklęcie 1. poziomu lub wyższego w miejsce innego zaklęcia tego samego lub wyższego poziomu. Odnawia się po krótkim lub długim odpoczynku."
+        ]
+    },
+    {
+        "id": "perfect-landing",
+        "name": "Perfect Landing",
+        "category": "allowed",
+        "source": "Humblewood Campaign Setting · s. 47",
+        "summary": true,
+        "description": [
+            "Zręczność +1, maks. 20. Pierwsze 30 stóp upadku nie zadaje obrażeń. Pozostałe obrażenia liczysz k4 zamiast k6. Obrażenia od upadku nie przewracają cię."
+        ]
+    },
+    {
+        "id": "plantmender",
+        "name": "Plantmender",
+        "category": "allowed",
+        "source": "Humblewood Tales · s. 172",
+        "summary": true,
+        "description": [
+            "Wymaga Mądrości 13. Dotknięcie rośliny pozwala ocenić jej stan i niedawne zdarzenia w otoczeniu. Atut daje też magię do opieki nad roślinami."
+        ]
+    },
+    {
+        "id": "reapmaster",
+        "name": "Reapmaster",
+        "category": "allowed",
+        "source": "Heliana’s Guide to Monster Hunting · s. 225",
+        "summary": true,
+        "description": [
+            "Wymaga Expert Harvester. Wybierasz biegłość w Arcana, Investigation, Medicine, Nature, Religion lub Survival. Przy pozyskiwaniu składników z użyciem znanej umiejętności masz przewagę."
+        ]
+    },
+    {
+        "id": "remarkable-recovery",
+        "name": "Remarkable Recovery",
+        "category": "allowed",
+        "source": "Tal’Dorei Campaign Setting Reborn · s. 190",
+        "summary": true,
+        "description": [
+            "Kondycja +1, maks. 20. Po ustabilizowaniu odzyskujesz PW równe modyfikatorowi Kondycji, minimum 1. Leczenie z zaklęcia, mikstury lub cechy klasowej daje tyle samo dodatkowych PW."
+        ]
+    },
+    {
+        "id": "speech-of-the-ancient-beasts",
+        "name": "Speech of the Ancient Beasts",
+        "category": "allowed",
+        "source": "Humblewood Campaign Setting · s. 47",
+        "summary": true,
+        "description": [
+            "Charyzma +1, maks. 20. Duże i większe bestie są zwykle przyjazne i masz przewagę w testach Charyzmy wobec nich. Poznajesz języki Giant Eagle, Giant Elk i Giant Owl oraz możesz porozumiewać się z dużymi bestiami."
+        ]
+    },
+    {
+        "id": "spelldriver",
+        "name": "Spelldriver",
+        "category": "allowed",
+        "source": "Tal’Dorei Campaign Setting Reborn · s. 190",
+        "summary": true,
+        "description": [
+            "Wymaga 11. poziomu i zdolności rzucania zaklęć. Możesz rzucić czar 1. poziomu lub wyższego zarówno akcją dodatkową, jak i akcją w tej samej turze. Tylko jeden z nich może mieć poziom 3 lub wyższy."
+        ]
+    },
+    {
+        "id": "spray-n-pray",
+        "name": "Spray 'n' Pray",
+        "category": "allowed",
+        "source": "Heliana’s Guide to Monster Hunting · s. 223",
+        "summary": true,
+        "description": [
+            "Wymaga biegłości w broni palnej magitech lub tommybow. Przeładowujesz akcją lub akcją dodatkową i nie masz utrudnienia w atakach dystansowych przez bliskość wroga. Atut pozwala też użyć lekkiej broni dystansowej w drugiej ręce."
+        ]
+    },
+    {
+        "id": "thrown-arms-master",
+        "name": "Thrown Arms Master",
+        "category": "allowed",
+        "source": "Tal’Dorei Campaign Setting Reborn · s. 191",
+        "summary": true,
+        "description": [
+            "Siła lub Zręczność +1, maks. 20. Broń do walki wręcz bez cechy thrown zyskuje ją dla ciebie (20/60 stóp jednoręczna, 15/30 oburęczna). Broń już miotana zyskuje 20/40 stóp zasięgu. Lekka broń wraca do ręki po pudle."
+        ]
+    },
+    {
+        "id": "vital-sacrifice",
+        "name": "Vital Sacrifice",
+        "category": "allowed",
+        "source": "Tal’Dorei Campaign Setting Reborn · s. 191",
+        "summary": true,
+        "description": [
+            "Akcją dodatkową przyjmujesz 1k6 obrażeń nekrotycznych, aby uzyskać na godzinę jednorazowy efekt. Możesz dodać 1k6 do ataku, zadać dodatkowe 2k6 obrażeń nekrotycznych przy trafieniu lub utrudnić odpowiedni rzut obronny o wartość 1k6."
+        ]
+    },
+    {
+        "id": "woodwise",
+        "name": "Woodwise",
+        "category": "allowed",
+        "source": "Humblewood Campaign Setting · s. 47",
+        "summary": true,
+        "description": [
+            "Wersja podręcznikowa. Wybierasz biegłość w Survival albo Nature, ignorujesz trudny teren i nie gubisz się w naturalnym otoczeniu bez ingerencji magii."
+        ]
     }
 ];

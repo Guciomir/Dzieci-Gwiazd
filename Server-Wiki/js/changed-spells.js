@@ -67,6 +67,12 @@ if (spellContent) {
             appendSpellElement(field, "dt", label + ":");
             appendSpellElement(field, "dd", value);
         }
+        if (spell.source) {
+            appendSpellElement(spellContent, "p", "Źródło: " + spell.source);
+        }
+        if (spell.summary) {
+            appendSpellElement(spellContent, "h3", "Skrót zasad");
+        }
         for (const line of spell.description.filter(Boolean)) {
             const heading = "At Higher Levels.";
             if (line.startsWith(heading)) {

@@ -50,6 +50,12 @@ if (featDetails) {
         appendWikiText(featDetails, "h2", feat.name);
         const status = appendWikiText(featDetails, "p", "");
         appendWikiText(status, "strong", featCategories[feat.category].status);
+        if (feat.source) {
+            appendWikiText(featDetails, "p", "Źródło: " + feat.source);
+        }
+        if (feat.summary) {
+            appendWikiText(featDetails, "h3", "Skrót zasad");
+        }
         for (const paragraph of feat.description) {
             appendWikiText(featDetails, "p", paragraph);
         }
