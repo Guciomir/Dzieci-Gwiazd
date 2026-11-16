@@ -11,20 +11,37 @@ function appendSpellElement(parent, tag, text) {
 if (spellRows) {
     const search = document.getElementById("searchInput");
     const levelTabs = document.querySelectorAll(".tab[data-level]");
+    const classHeading = document.getElementById("spell-list-class");
+    const requestedClass = new URLSearchParams(location.search).get("class");
+    const spellClass = classHeading && changedSpellData.flatMap(spell => spell.classes)
+        .find(name => name.toLowerCase() === requestedClass?.toLowerCase());
+
+    if (classHeading && spellClass) {
+        classHeading.textContent = spellClass + " Spell List";
+        document.title = classHeading.textContent + " | Server-Wiki";
+    }
 
     function renderChangedSpells() {
-        const level = Number(document.querySelector(".tab.active[data-level]").dataset.level);
+        const level = document.querySelector(".tab.active[data-level]").dataset.level;
         const query = search.value.trim().toLowerCase();
         const spells = changedSpellData.filter(spell =>
-            spell.category === spellRows.dataset.spellCategory &&
-            spell.level === level && spell.name.toLowerCase().includes(query)
+            (classHeading ? spell.classes.includes(spellClass) : spell.category === spellRows.dataset.spellCategory) &&
+            (level === "all" || spell.level === Number(level)) && spell.name.toLowerCase().includes(query)
         );
+
+        if (classHeading) {
+            spells.sort((a, b) => a.level - b.level || a.name.localeCompare(b.name));
+        }
 
         spellRows.replaceChildren();
         for (const spell of spells) {
             const row = spellRows.insertRow();
             const link = appendSpellElement(row.insertCell(), "a", spell.name);
             link.href = "changed_spell.html?id=" + encodeURIComponent(spell.id);
+
+            if (classHeading) {
+                row.insertCell().textContent = spell.level === 0 ? "Cantrip" : String(spell.level);
+            }
 
             for (const value of [spell.school, spell.castingTime, spell.range, spell.duration, spell.components]) {
                 row.insertCell().textContent = value;
@@ -33,7 +50,7 @@ if (spellRows) {
 
         if (spells.length === 0) {
             const cell = spellRows.insertRow().insertCell();
-            cell.colSpan = 6;
+            cell.colSpan = classHeading ? 7 : 6;
             cell.textContent = "Brak zakl\u0119\u0107 do wy\u015bwietlenia.";
         }
     }
@@ -86,7 +103,11 @@ if (spellContent) {
         if (spell.classes.length > 0) {
             const paragraph = appendSpellElement(spellContent, "p", "");
             appendSpellElement(paragraph, "strong", "Spell Lists.");
-            paragraph.append(" " + spell.classes.join(", "));
+            spell.classes.forEach((name, index) => {
+                paragraph.append(index === 0 ? " " : ", ");
+                const link = appendSpellElement(paragraph, "a", name);
+                link.href = "spell_list.html?class=" + encodeURIComponent(name);
+            });
         }
     } else {
         appendSpellElement(spellContent, "h2", "Nie znaleziono zakl\u0119cia");
