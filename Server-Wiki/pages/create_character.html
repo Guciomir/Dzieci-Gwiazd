@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jak stworzyć postać | Server-Wiki</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="icon" type="image/png" href="../images/logo.png">
+</head>
+<body>
+    <div class="wrapper">
+        <header class="wiki-header">
+            <a class="wiki-brand" href="../index.html" aria-label="Dzieci Gwiazd Wiki — strona główna">
+                <img src="../images/logo.png" alt="" width="50" height="50">
+            </a>
+            <h1>Jak stworzyć postać</h1>
+            <button type="button" class="wiki-icon-button" id="searchBtn" aria-label="Wyszukiwanie" aria-controls="searchBar" aria-expanded="false">
+                <img src="../images/wiki-search.svg" alt="" width="24" height="24">
+            </button>
+            <button type="button" class="wiki-icon-button" id="menuBtn" aria-label="Menu" aria-controls="wiki-menu" aria-expanded="false">
+                <img src="../images/wiki-menu.svg" alt="" width="24" height="24">
+            </button>
+        </header>
+        <form class="wiki-search" id="searchBar" action="search.html" method="get" role="search" hidden>
+            <input type="search" id="searchInput" name="q" placeholder="Szukaj w wiki…" aria-label="Szukaj w wiki" required>
+            <button type="submit">Szukaj</button>
+        </form>
+        <nav class="wiki-menu" id="wiki-menu" aria-label="Nawigacja główna" inert>
+                <a href="../index.html">Strona główna</a>
+                <a href="new_spells.html">Nowe spelle</a>
+                <a href="changed_spells.html">Zmienione spelle</a>
+                <a href="changed_feats.html">Featy</a>
+                <a href="races.html">Rasy</a>
+                <a href="classes.html">Klasy</a>
+                <a href="create_character.html" aria-current="page">Jak stworzyć postać</a>
+        </nav>
+        <main class="spells-page">
+            <article class="spell-box spell-details">
+                <h2>Jak stworzyć postać</h2>
+                <p>Tworzymy postać w Shard Tabletop w systemie <strong>D&amp;D 5E (2014)</strong>. Na serwerze zaczynasz na <strong>2. poziomie z 300 XP</strong>.</p>
+                <section>
+                    <h3>1. Załóż konto w Shard Tabletop</h3>
+                    <p>Otwórz <a href="https://www.shardtabletop.com/opendnd">Shard Tabletop OpenDnD</a> i załóż konto. Na stronie znajdziesz też ofertę trzech miesięcy subskrypcji Adventurer.</p>
+                </section>
+                <section>
+                    <h3>2. Utwórz nową postać</h3>
+                    <p>W zakładce <strong>My Characters</strong> kliknij <strong>New Character</strong>. Wpisz imię postaci, wybierz system <strong>D&amp;D 5E (2014)</strong> i kliknij <strong>OK</strong>.</p>
+                </section>
+                <section>
+                    <h3>3. Wybierz rasę</h3>
+                    <p>Kliknij <strong>Pick Race</strong>. W przykładzie wybieramy Fairy. Jeśli nie widzisz swojej rasy, poszukaj jej w Shard Marketplace lub dodaj ją ręcznie według zasad z podręcznika. Upewnij się, że rasa jest dozwolona na serwerze. Dodatkowe opcje znajdziesz w <a href="races.html">katalogu ras</a>.</p>
+                </section>
+                <section>
+                    <h3>4. Wybierz tło postaci</h3>
+                    <p>Kliknij <strong>Pick Background</strong>. Przykładowe tło to Hermit. Możesz wybrać tło przyznające feat lub rozszerzające listę zaklęć, ale na serwerze nie otrzymujesz tych dwóch rodzajów korzyści z tła.</p>
+                    <p>Możesz też stworzyć własne tło, korzystając z istniejących opcji:</p>
+                    <ul>
+                        <li>Wybierz biegłość w dwóch umiejętnościach.</li>
+                        <li>Wybierz dwie opcje spośród biegłości w narzędziach i języków.</li>
+                        <li>Wybierz pakiet wyposażenia i cechę tła.</li>
+                        <li>Opcjonalnie wybierz cechy osobowości, więzi i wady.</li>
+                    </ul>
+                </section>
+                <section>
+                    <h3>5. Wybierz klasę i ustaw poziom</h3>
+                    <p>Kliknij <strong>Pick Class</strong>. W przykładzie wybieramy Bard (TCE), wariant z opcjonalnymi zasadami z <em>Tasha’s Cauldron of Everything</em>. Jeśli wariantu nie ma na liście, sprawdź Shard Marketplace. Ustaw postać na 2. poziomie z 300 XP. <a href="classes.html">Klasy i podklasy w wiki</a></p>
+                </section>
+                <section>
+                    <h3>6. Rozdaj statystyki</h3>
+                    <p>Kliknij <strong>Pick Abilities</strong>. Jeśli nie obniżasz żadnej statystyki poniżej 8, możesz użyć wbudowanego <strong>Point Buy</strong>. Zasada serwera pozwala zejść do 6. Wtedy użyj <a href="https://2014.5e.tools/statgen.html#pointbuy">kalkulatora Point Buy w 5etools 2014</a>, włącz <strong>Custom Rules</strong> i ustaw budżet 27 punktów. Wyniki przed premiami rasowymi przepisz w Shardzie w trybie <strong>Freeform</strong>.</p>
+                    <p>Koszt według kolejnych wartości od 6 do 15 wynosi: <strong>−2, −1, 0, 1, 2, 3, 4, 5, 7, 9</strong>. Przykładowy zestaw wykorzystujący 27 punktów to 6, 14, 13, 12, 12, 15.</p>
+                </section>
+                <section>
+                    <h3>7. Uzupełnij wyposażenie, zaklęcia i opcje rasowe</h3>
+                    <p>Wybierz wyposażenie startowe i zaklęcia zgodnie z zasadami swojej klasy. Klasy przygotowujące zaklęcia zwykle mogą zmienić przygotowaną listę po długim odpoczynku. Klasy uczące się zaklęć zmieniają je zgodnie z zasadami awansu lub za pomocą DT na serwerze.</p>
+                    <p>W <strong>Pick Options</strong> lub po kliknięciu poziomu pod imieniem postaci możesz zmienić przypisanie premii rasowych zgodnie z TCE. Premii nie możesz przypisać dwukrotnie do tej samej cechy.</p>
+                    <p>Wyposażenie startowe możesz sprzedać za połowę ceny. Jeśli wybierasz start ze złotem, otrzymujesz średnią kwotę przewidzianą dla klasy i kupujesz wyposażenie według cennika.</p>
+                </section>
+                <section>
+                    <h3>8. Dodaj Hero Feat</h3>
+                    <p>Kliknij trzy kropki obok imienia postaci i wybierz <strong>Hero Abilities → Add → Feats</strong>. Dodaj wybrany feat. Sprawdź, czy spełniasz jego wymagania i czy jest <a href="changed_feats.html">dozwolony na serwerze</a>.</p>
+                </section>
+                <section>
+                    <h3>9. Dodaj token i historię postaci</h3>
+                    <p>Dodaj token i napisz krótko, kim jest twoja postać oraz dlaczego dołączyła do gildii Dzieci Gwiazd. Możesz dostosować wygląd karty do postaci.</p>
+                </section>
+                <section>
+                    <h3>10. Zarejestruj postać na Discordzie</h3>
+                    <ol>
+                        <li>Utwórz post na kanale <strong>#bohaterowie</strong> według zamieszczonego tam wzoru.</li>
+                        <li>Po opublikowaniu posta zarejestruj postać odpowiednią komendą bota.</li>
+                        <li>Użyj <strong>Quick Info</strong> pod postem, aby MG miał dane potrzebne do przyznawania XP.</li>
+                    </ol>
+                </section>
+            </article>
+        </main>
+    </div>
+    <footer>
+        <p>© 2077 Dzieci Gwiazd</p>
+    </footer>
+
+    <script src="../js/script.js"></script>
+</body>
+</html>
