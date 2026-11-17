@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Style walki | Server-Wiki</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="icon" type="image/png" href="../images/logo.png">
+</head>
+<body>
+    <div class="wrapper">
+        <header class="wiki-header">
+            <a class="wiki-brand" href="../index.html" aria-label="Dzieci Gwiazd Wiki — strona główna">
+                <img src="../images/logo.png" alt="" width="50" height="50">
+            </a>
+            <h1>Style walki</h1>
+            <button type="button" class="wiki-icon-button" id="searchBtn" aria-label="Wyszukiwanie" aria-controls="searchBar" aria-expanded="false">
+                <img src="../images/wiki-search.svg" alt="" width="24" height="24">
+            </button>
+            <button type="button" class="wiki-icon-button" id="menuBtn" aria-label="Menu" aria-controls="wiki-menu" aria-expanded="false">
+                <img src="../images/wiki-menu.svg" alt="" width="24" height="24">
+            </button>
+        </header>
+        <form class="wiki-search" id="searchBar" action="search.html" method="get" role="search" hidden>
+            <input type="search" id="searchInput" name="q" placeholder="Szukaj w wiki…" aria-label="Szukaj w wiki" required>
+            <button type="submit">Szukaj</button>
+        </form>
+        <nav class="wiki-menu" id="wiki-menu" aria-label="Nawigacja główna" inert>
+                <a href="../index.html">Strona główna</a>
+                <a href="new_spells.html">Nowe spelle</a>
+                <a href="changed_spells.html">Zmienione spelle</a>
+                <a href="changed_feats.html">Featy</a>
+                <a href="races.html">Rasy</a>
+                <a href="classes.html">Klasy</a>
+                <a href="create_character.html">Jak stworzyć postać</a>
+                <a href="fighting_styles.html" aria-current="page">Style walki</a>
+        </nav>
+        <main class="spells-page">
+            <article class="spell-box spell-details">
+                <h2>Style walki</h2>
+                <p>Zmiany w stylach walki są obowiązkowe na serwerze. Style zmienione na serwerze lub niedostępne standardowo w Shard Tabletop mają oznaczenie <strong>(G)</strong> w paczce serwerowej.</p>
+                <section>
+                    <h3>Zmiany w oficjalnych stylach</h3>
+                    <h4>Two-Weapon Fighting</h4>
+                    <p>When you engage in two-weapon fighting, add your ability modifier to the damage of the second attack.</p>
+                    <p><strong>Server rule.</strong> When you take the Attack action on your turn and qualify for the off-hand melee weapon attack, you can make it without spending a bonus action.</p>
+                </section>
+                <section>
+                    <h3>Dozwolone style homebrew</h3>
+                    <h4>Close Quarters Shooter</h4>
+                    <p>A hostile creature within 5 feet of you does not impose disadvantage on your ranged attack rolls. Against targets within 30 feet, your ranged weapon attacks ignore half cover and treat three-quarters cover as half cover.</p>
+                    <p><strong>Klasy</strong> <a href="class.html?id=ranger">Ranger</a>, <a href="class.html?id=fighter">Fighter</a>, <a href="class.html?id=blood-hunter">Blood Hunter</a>.</p>
+                </section>
+            </article>
+        </main>
+    </div>
+    <footer>
+        <p>© 2077 Dzieci Gwiazd</p>
+    </footer>
+
+    <script src="../js/script.js"></script>
+</body>
+</html>
